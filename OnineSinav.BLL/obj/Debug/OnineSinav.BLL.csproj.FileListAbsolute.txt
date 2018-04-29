@@ -1,0 +1,16 @@
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\OnineSinav.BLL.dll
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\OnineSinav.BLL.pdb
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\obj\Debug\OnineSinav.BLL.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\obj\Debug\OnineSinav.BLL.dll
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\obj\Debug\OnineSinav.BLL.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\OnlineSinav.Core.dll
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\OnlineSinav.Model.dll
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\EntityFramework.dll
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\OnlineSinav.Core.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\OnlineSinav.Model.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\EntityFramework.xml
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\OnineSinav.BLL.dll.config
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\OnlineSinav.DAL.dll
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\OnlineSinav.DAL.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnineSinav.BLL\bin\Debug\EntityFramework.SqlServer.xml

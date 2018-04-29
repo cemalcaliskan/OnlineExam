@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C100F1A-7D72-4FC4-BBB4-C89B51C9279E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnineSinav.BLL</RootNamespace>
+    <AssemblyName>OnineSinav.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\ICategoryService.cs" />
+    <Compile Include="Abstract\IChoiceServive.cs" />
+    <Compile Include="Abstract\IExamService.cs" />
+    <Compile Include="Abstract\ILessonService.cs" />
+    <Compile Include="Abstract\IQuestionService.cs" />
+    <Compile Include="Abstract\IServiceBase.cs" />
+    <Compile Include="Abstract\IUserDetailService.cs" />
+    <Compile Include="Abstract\IUserExamService.cs" />
+    <Compile Include="Abstract\IUserRoleSercive.cs" />
+    <Compile Include="Abstract\IUserService.cs" />
+    <Compile Include="Concrete\CategoryService.cs" />
+    <Compile Include="Concrete\ChoiceService.cs" />
+    <Compile Include="Concrete\ExamService.cs" />
+    <Compile Include="Concrete\LessonService.cs" />
+    <Compile Include="Concrete\QuestionService.cs" />
+    <Compile Include="Concrete\UserDetailService.cs" />
+    <Compile Include="Concrete\UserExamService.cs" />
+    <Compile Include="Concrete\UserRoleService.cs" />
+    <Compile Include="Concrete\UserService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineSinav.Core\OnlineSinav.Core.csproj">
+      <Project>{66a069c6-1cbd-4d7f-9a49-34c06ddbb071}</Project>
+      <Name>OnlineSinav.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnlineSinav.DAL\OnlineSinav.DAL.csproj">
+      <Project>{387b3598-b03f-4797-a594-dc86d8da6af3}</Project>
+      <Name>OnlineSinav.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnlineSinav.Model\OnlineSinav.Model.csproj">
+      <Project>{908b700e-1e08-4777-86f7-9ce203a9c404}</Project>
+      <Name>OnlineSinav.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

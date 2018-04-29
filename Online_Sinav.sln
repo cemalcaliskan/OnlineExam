@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSinav.Model", "OnlineSinav.Model\OnlineSinav.Model.csproj", "{908B700E-1E08-4777-86F7-9CE203A9C404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSinav.Core", "OnlineSinav.Core\OnlineSinav.Core.csproj", "{66A069C6-1CBD-4D7F-9A49-34C06DDBB071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSinav.DAL", "OnlineSinav.DAL\OnlineSinav.DAL.csproj", "{387B3598-B03F-4797-A594-DC86D8DA6AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnineSinav.BLL", "OnineSinav.BLL\OnineSinav.BLL.csproj", "{9C100F1A-7D72-4FC4-BBB4-C89B51C9279E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSinav.UI.WebMVC", "OnlineSinav.UI.WebMVC\OnlineSinav.UI.WebMVC.csproj", "{872E9D48-2B02-4466-89CB-08A70AD0C51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSinav.Extensions", "OnlineSinav.Extensions\OnlineSinav.Extensions.csproj", "{B722B855-7625-487C-B611-87011150F2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{908B700E-1E08-4777-86F7-9CE203A9C404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908B700E-1E08-4777-86F7-9CE203A9C404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908B700E-1E08-4777-86F7-9CE203A9C404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908B700E-1E08-4777-86F7-9CE203A9C404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A069C6-1CBD-4D7F-9A49-34C06DDBB071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A069C6-1CBD-4D7F-9A49-34C06DDBB071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A069C6-1CBD-4D7F-9A49-34C06DDBB071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A069C6-1CBD-4D7F-9A49-34C06DDBB071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387B3598-B03F-4797-A594-DC86D8DA6AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387B3598-B03F-4797-A594-DC86D8DA6AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387B3598-B03F-4797-A594-DC86D8DA6AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387B3598-B03F-4797-A594-DC86D8DA6AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C100F1A-7D72-4FC4-BBB4-C89B51C9279E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C100F1A-7D72-4FC4-BBB4-C89B51C9279E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C100F1A-7D72-4FC4-BBB4-C89B51C9279E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C100F1A-7D72-4FC4-BBB4-C89B51C9279E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872E9D48-2B02-4466-89CB-08A70AD0C51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872E9D48-2B02-4466-89CB-08A70AD0C51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872E9D48-2B02-4466-89CB-08A70AD0C51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872E9D48-2B02-4466-89CB-08A70AD0C51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B722B855-7625-487C-B611-87011150F2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B722B855-7625-487C-B611-87011150F2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B722B855-7625-487C-B611-87011150F2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B722B855-7625-487C-B611-87011150F2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

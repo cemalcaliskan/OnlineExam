@@ -1,0 +1,102 @@
+﻿@using OnlineSinav.Model
+@model Exam
+
+@{
+    ViewBag.Title = "GetExam";
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="@Url.Action("Index","Home")">Anasayfa</a></li>
+    <li class="breadcrumb-item active">Sınav</li>
+</ol>
+<div class="card-group">
+    <div class="card">
+        <div class="card-body text-center">
+            <h4 class="mb-0"><strong>@Model.Questions.Count</strong></h4>
+            <small class="text-muted-light">TOPLAM</small>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body text-center">
+            <h4 class="text-success mb-0"><strong>@ViewBag.Correct</strong></h4>
+            <small class="text-muted-light">DOĞRU</small>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body text-center">
+            <h4 class="text-danger mb-0"><strong>@ViewBag.Wrong</strong></h4>
+            <small class="text-muted-light">YANLIŞ</small>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body text-center">
+            <h4 class="text-primary mb-0"><strong>17</strong></h4>
+            <small class="text-muted-light">KALAN</small>
+        </div>
+    </div>
+</div>
+@Html.Action("BindQuestion", new { id = Model.ExamID })
+
+@section ExamSidebar{
+    <div class="mdk-drawer js-mdk-drawer" data-align="end">
+        <div class="mdk-drawer__content">
+            <div class="sidebar sidebar-right sidebar-light bg-white o-hidden">
+                <div class="sidebar-p-y" data-simplebar data-simplebar-force-enabled="true">
+                    <div class="sidebar-heading">Time left</div>
+                    <div class="countdown sidebar-p-x" data-value="4" data-unit="hour"></div>
+                    <div class="sidebar-heading">Pending</div>
+                    <ul class="list-group list-group-fit">
+                        <li class="list-group-item active">
+                            <a href="#">
+                                <span class="media">
+                                    <span class="media-left">
+                                        <span class="btn btn-white btn-circle">#9</span>
+                                    </span>
+                                    <span class="media-body media-middle">
+                                        Github command to deploy comits?
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <span class="media">
+                                    <span class="media-left">
+                                        <span class="btn btn-white btn-circle">#10</span>
+                                    </span>
+                                    <span class="media-body media-middle">
+                                        What's the difference between private and public repos?
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <span class="media">
+                                    <span class="media-left">
+                                        <span class="btn btn-white btn-circle">#11</span>
+                                    </span>
+                                    <span class="media-body media-middle">
+                                        What is the purpose of a branch?
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <span class="media">
+                                    <span class="media-left">
+                                        <span class="btn btn-white btn-circle">#12</span>
+                                    </span>
+                                    <span class="media-body media-middle">
+                                        Final Question?
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+}

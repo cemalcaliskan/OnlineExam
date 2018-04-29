@@ -1,0 +1,5 @@
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Extensions\bin\Debug\OnlineSinav.Extensions.dll
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Extensions\bin\Debug\OnlineSinav.Extensions.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Extensions\obj\Debug\OnlineSinav.Extensions.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Extensions\obj\Debug\OnlineSinav.Extensions.dll
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Extensions\obj\Debug\OnlineSinav.Extensions.pdb

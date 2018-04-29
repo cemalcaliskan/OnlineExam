@@ -1,0 +1,12 @@
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\bin\Debug\OnlineSinav.Model.dll
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\bin\Debug\OnlineSinav.Model.pdb
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\bin\Debug\OnlineSinav.Core.dll
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\bin\Debug\OnlineSinav.Core.pdb
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\obj\Debug\OnlineSinav.Model.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\obj\Debug\OnlineSinav.Model.dll
+c:\users\pc\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\obj\Debug\OnlineSinav.Model.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\bin\Debug\OnlineSinav.Model.dll.config
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\bin\Debug\EntityFramework.dll
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\bin\Debug\EntityFramework.xml
+C:\Users\PC\documents\visual studio 2015\Projects\Online_Sinav\OnlineSinav.Model\bin\Debug\EntityFramework.SqlServer.xml
